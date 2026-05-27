@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Tweet Classifier</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Disaster Tweet Classification</h1>
+        <p>Enter a tweet and check whether it describes a real disaster.</p>
+
+        <textarea id="tweetInput" placeholder="Type your tweet here..."></textarea>
+
+        <button onclick="predictTweet()">Predict</button>
+
+        <div id="resultBox" class="hidden">
+            <h2>Prediction Result</h2>
+            <p><strong>Tweet:</strong> <span id="tweetText"></span></p>
+            <p><strong>Prediction:</strong> <span id="prediction"></span></p>
+            <p><strong>Confidence:</strong> <span id="confidence"></span></p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

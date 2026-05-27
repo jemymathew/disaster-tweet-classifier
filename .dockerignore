@@ -1,0 +1,7 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.gitcd diaster_tweet_project
+.gitignore
